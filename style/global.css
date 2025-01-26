@@ -1,0 +1,45 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --sniptap-sun: #FFCD1E;
+    --sniptap-sky-mid: #06B6D4;
+    --sniptap-sky-light: #67E8F9;
+    --sniptap-joy-mid: #DB2777;
+    --sniptap-joy-light: #F472B6;
+
+    --sniptap-leaf-mid: #16A34A;
+    --text: #000000;
+    --highlights: #000000;
+    --bg: #FAFAFA;
+   --ff-base: "Montserrat", sans-serif;
+
+   --text-sm: 0.875rem;
+   --text-base: 1rem;
+   --text-lg: 2.5rem;
+   --text-xlg: 4rem;
+
+}
+
+html, button{
+    font: 500 1rem/1.5 var(--ff-base);
+}
+
+
+h1{
+    font-size: 4rem;
+    line-height: 1.25;
+}
+h2{
+    font-size: 2.5rem;
+    list-style: 1.2;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
